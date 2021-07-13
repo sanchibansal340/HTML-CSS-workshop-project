@@ -1,0 +1,30 @@
+Chocalate Cake Recipe
+
+Ingredients
+<li>3 Cups White Sugar</li>
+<li>2 Cups Milk</li>
+<li>1 tablespoon oil</li>
+<li>4 Cups all-purpose flour</li>
+<li>Cocoa</li>
+<li>1 Pinch ofBaking Powder</li>
+<li>2 Eggs</li>
+
+Steps
+<li>Preheat oven to 350 degrees F (175 degrees C). Grease and flour two nine inch round pans.</li>
+<li>>In a large bowl, stir together the sugar, flour, cocoa, baking powder, baking soda and salt. 
+			    Add the eggs, milk, oil and vanilla, mix for 2 minutes on medium speed of mixer. 
+                            Stir in the boiling water last. Batter will be thin. Pour evenly into the prepared pans.
+</li>
+<li>Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick. 
+                            Cool in the pans for 10 minutes, then remove to a wire rack to cool completely.
+</li>
+
+Chocolate cake image
+https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIPL1vDrPUKoaNN5braU5PPyYDtQPnJT9kBg&usqp=CAU
+
+Google Fonts
+HTML: <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+CSS:  font-family: 'EB Garamond', serif;
+
+HTML: <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+CSS:  font-family: 'Pacifico', cursive;

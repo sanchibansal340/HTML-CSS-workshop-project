@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Cooking Recipes</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <!-- Link within same page -->
+            <li><a href="#contact"> Contact </a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="card">
+            <!-- Types of headings in HTML -->
+            <h2 class="heading">Chocalate Cake Recipe</h2>
+            <div class="row"> <!-- Flexbox -->
+                <div class="left-col">
+                    <h3>Ingredients</h3>
+                   <!-- Unordered Lists  -->
+                    <ul class="ingredients">
+                        <li>3 Cups White Sugar</li>
+                        <li>2 Cups Milk</li>
+                        <li>1 tablespoon oil</li>
+                        <li>4 Cups all-purpose flour</li>
+                        <li>Cocoa</li>
+                        <li>1 Pinch ofBaking Powder</li>
+                        <li>2 Eggs</li>
+                    </ul>
+                    <br><br><br>
+                    <h3>Steps</h3>
+                    <!-- Ordered Lists -->
+                    <ol class="steps">
+                        <li>Preheat oven to 350 degrees F (175 degrees C). Grease and flour two nine inch round pans.</li>
+                        <li>In a large bowl, stir together the sugar, flour, cocoa, baking powder, baking soda and salt. 
+                            Add the eggs, milk, oil and vanilla, mix for 2 minutes on medium speed of mixer. 
+                            Stir in the boiling water last. Batter will be thin. Pour evenly into the prepared pans.
+                        </li>
+                        <li>Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick. 
+                            Cool in the pans for 10 minutes, then remove to a wire rack to cool completely.
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- How to add images in a website -->
+                <div class="right-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIPL1vDrPUKoaNN5braU5PPyYDtQPnJT9kBg&usqp=CAU" alt="Chocolate Cake">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How to make a form in a website -->
+    <div id="contact">
+        <h2>Contact for more recipes</h2>
+        <form class="contact-form">
+            <label for="name">Enter your name:</label><br>
+            <input type="text" id="name" placeholder="Full Name"><br><br>
+
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" placeholder="Email"><br><br>
+
+            <label for="message">Enter your message:</label><br>
+            <textarea name="message" id="message" cols="70" rows="10" placeholder="Your message"></textarea><br>
+        </form>
+    </div>
+</body>
+</html>
